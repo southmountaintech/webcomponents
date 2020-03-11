@@ -44,7 +44,7 @@ After having all these values, the html file would look like this.
 
 ```
 
-![DEMO](https://github.com/southmountaintech/webcomponents/blob/master/ProgressiveImage/demo.gif)
+![DEMO](https://github.com/southmountaintech/webcomponents/blob/master/progressive-image/demo.gif)
 
 ## Build
 ```shell script
