@@ -4,9 +4,16 @@
 A web component that renders a small image initially, and then the larger image progressively.  Inspired by this [Article](https://jmperezperez.com/medium-image-progressive-loading-placeholder/) from [José M. Pérez](https://github.com/JMPerez/).
 
 ## Installation
+
+Npm install
+
 ```shell script
 npm install @southmountaintech/progressive-image
 ```
+
+or CDN
+
+https://cdn-smountaintech.web.app/progressive-image.web-component.js
 
 ## Usage
 
@@ -19,7 +26,7 @@ Once you have those things, you have to decide how you would like to add it to y
 
 ## Example
 
-You can add the ```progressive-image.web-component.js``` file to your html page.  Then use the component as an html tag.
+You can add the ```progressive-image.web-component.js``` file to your project or use the CDN.  Then use the component as an html tag.
 
 For example, suppose I have an image named ```my-image.jpg``` and I create the small-poorer quality image ```my-image-small.jpg```.
 The large images dimensions are ```1920x884``` which makes the aspect ratio ```(884/1920) X 100 = ~46.0```.
@@ -29,7 +36,7 @@ After having all these values, the html file would look like this.
 
 <html>
   <head>
-    <script src="progressive-image.web-component.js"></script>
+    <script src="https://cdn-smountaintech.web.app/progressive-image.web-component.js"></script>
   </head>
   <body>
     <progressive-image
