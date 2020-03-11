@@ -1,7 +1,7 @@
 # ProgressiveImage
 
 ## Description
-A web component that renders a small image initially, and then the larger image progressively.
+A web component that renders a small image initially, and then the larger image progressively.  Inspired by this [Article](https://jmperezperez.com/medium-image-progressive-loading-placeholder/) from [José M. Pérez](https://github.com/JMPerez/).
 
 ## Installation
 ```shell script
