@@ -7,7 +7,9 @@
   },
   "repository": "https://github.com/southmountaintech/webcomponents/tree/master/ProgressiveImage",
   "main": "public/build/progressive-image.web-component.js",
-  "files": ["public/build/progressive-image.web-component.js"],
+  "files": [
+    "public/build/progressive-image.web-component.js"
+  ],
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.0",
     "@rollup/plugin-node-resolve": "^7.0.0",

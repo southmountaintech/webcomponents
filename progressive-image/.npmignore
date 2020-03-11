@@ -3,4 +3,5 @@
 /public/favicon.jpg
 /public/global.css
 /public/index.html
+/public/build/cdn
 rollup.config.js

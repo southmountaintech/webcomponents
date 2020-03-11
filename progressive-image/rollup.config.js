@@ -8,12 +8,15 @@ const production = !process.env.ROLLUP_WATCH;
 
 export default {
 	input: 'src/main.js',
-	output: {
-		sourcemap: true,
+	output: [{
 		format: 'iife',
-		name: 'app',
+		name: 'progressiveImage',
+		file: 'public/build/cdn/progressive-image.web-component.js'
+	},{
+		format: 'cjs',
+		name: 'progressiveImage',
 		file: 'public/build/progressive-image.web-component.js'
-	},
+	}],
 	plugins: [
 		svelte({
 			customElement: true,

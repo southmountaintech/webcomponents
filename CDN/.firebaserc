@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "south-mountain-tech"
+  },
+  "targets": {
+    "south-mountain-tech": {
+      "hosting": {
+        "cdn-smountaintech": [
+          "cdn-smountaintech"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "@smountaintech/CDN",
+  "scripts": {
+    "copy" : "node copy-cdn-files.js"
+  },
+  "version": "1.0.0",
+  "dependencies": {
+  }
+}
