@@ -1,9 +1,11 @@
 {
-  "name": "@southmountaintech/ProgressiveImage",
+  "name": "@southmountaintech/progressive-image",
   "version": "1.0.0",
+  "private": false,
   "scripts": {
     "build": "node_modules/.bin/rollup -c"
   },
+  "repository": "https://github.com/southmountaintech/webcomponents/tree/master/ProgressiveImage",
   "main": "public/build/progressive-image.web-component.js",
   "files": ["public/build/progressive-image.web-component.js"],
   "devDependencies": {
