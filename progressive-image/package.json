@@ -1,6 +1,6 @@
 {
   "name": "@southmountaintech/progressive-image",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "scripts": {
     "build": "node_modules/.bin/rollup -c"
