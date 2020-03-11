@@ -1,0 +1,6 @@
+/node_modules/
+/public/build/bundle.css
+/public/build/bundle.css.map
+public/build/progressive-image.web-component.js.map
+
+.DS_Store
