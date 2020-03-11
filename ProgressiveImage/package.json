@@ -1,10 +1,8 @@
 {
-  "name": "@nogrod/ProgressiveImage",
+  "name": "@southmountaintech/ProgressiveImage",
   "version": "1.0.0",
   "scripts": {
-    "build": "node_modules/.bin/rollup -c",
-    "dev": "node_modules/.bin/rollup -c -w",
-    "start": "node_modules/.bin/sirv public"
+    "build": "node_modules/.bin/rollup -c"
   },
   "main": "public/build/progressive-image.web-component.js",
   "devDependencies": {
@@ -15,8 +13,5 @@
     "rollup-plugin-svelte": "^5.0.3",
     "rollup-plugin-terser": "^5.1.2",
     "svelte": "^3.0.0"
-  },
-  "dependencies": {
-    "sirv-cli": "^0.4.4"
   }
 }
