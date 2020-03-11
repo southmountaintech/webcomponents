@@ -44,6 +44,8 @@ After having all these values, the html file would look like this.
 
 ```
 
+![DEMO](https://github.com/southmountaintech/webcomponents/blob/master/ProgressiveImage/demo.gif)
+
 ## Build
 ```shell script
 npm run build
